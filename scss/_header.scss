@@ -1,0 +1,18 @@
+/* estilos header */
+.gridA {
+    grid-area: header;
+    background-color:rgb(124, 35, 35);
+    .genNav{
+        display:inline-block;
+        color: black;
+        font-size: 1.5rem;
+        padding-left: 4%;
+        list-style: none;
+        text-decoration: none;
+        
+    }
+}
+.sticky{
+    position: sticky;
+    top: 0;
+}

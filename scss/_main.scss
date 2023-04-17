@@ -1,0 +1,82 @@
+/* estilos main */
+.gridB {
+    grid-area: main;
+    background-color: rgb(226, 226, 226);
+    .texBienvenida{
+        position: absolute;
+        z-index: 1;
+        color:rgb(226, 226, 226);
+        font-size: 1.8rem;
+    }
+    .txth2{
+        position: absolute;
+        z-index: 1;
+        color: rgb(226, 226, 226);
+        font-size: 1.8rem;
+        margin-top: 40%;
+        margin-left: 55%;
+    }
+
+    .videoLoop{
+        height: 100%;
+        width: 69.45%;
+    }
+    
+
+    .txtMap{
+        display: flex;
+        
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .flexGal{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+        .leyendas{
+            height: 40%;
+            width: 25%;
+                &:hover{
+                    background-color: rgb(124, 35, 35);
+            }
+        }
+
+        .mapas{
+            padding: 1%;
+                &:hover{
+                    background-color:rgb(124, 35, 35);
+            }
+        }
+    }
+    .cartas{
+        margin: 10%;
+        margin-bottom: 24vh;
+        padding: 2%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .txtM{
+        margin: 9%;
+        .txtMin{
+            margin-bottom: 20%;
+        }
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+

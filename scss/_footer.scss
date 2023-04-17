@@ -1,0 +1,22 @@
+/* estilos footer */
+.gridC {
+    grid-area: footer;
+    background-color:rgb(124, 35, 35);
+    .flexFooter{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        
+    }
+    
+}
+
+
+.tamLogoEA{
+    height: 10vh;
+}
+
+.tamLogoApex{
+    height: 9vh;
+}

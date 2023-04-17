@@ -20,13 +20,7 @@
   grid-area: header;
   background-color: rgb(124, 35, 35);
 }
-
-.sticky {
-  position: sticky;
-  top: 0;
-}
-
-.genNav {
+.gridA .genNav {
   display: inline-block;
   color: black;
   font-size: 1.5rem;
@@ -35,78 +29,70 @@
   text-decoration: none;
 }
 
+.sticky {
+  position: sticky;
+  top: 0;
+}
+
 /* estilos main */
 .gridB {
   grid-area: main;
   background-color: rgb(226, 226, 226);
 }
-
-.texBienvenida {
+.gridB .texBienvenida {
   position: absolute;
   z-index: 1;
-  color: aliceblue;
+  color: rgb(226, 226, 226);
   font-size: 1.8rem;
 }
-
-.txth2 {
+.gridB .txth2 {
   position: absolute;
   z-index: 1;
-  color: aliceblue;
+  color: rgb(226, 226, 226);
   font-size: 1.8rem;
   margin-top: 40%;
   margin-left: 55%;
 }
-
-.txtMap {
+.gridB .videoLoop {
+  height: 100%;
+  width: 69.45%;
+}
+.gridB .txtMap {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
-
-.flexGal {
+.gridB .flexGal {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
 }
-
-.mapas {
-  padding: 1%;
-}
-
-.mapas:hover {
-  background-color: crimson;
-}
-
-.leyendas {
+.gridB .flexGal .leyendas {
   height: 40%;
   width: 25%;
 }
-
-.leyendas:hover {
-  background-color: crimson;
+.gridB .flexGal .leyendas:hover {
+  background-color: rgb(124, 35, 35);
 }
-
-.videoLoop {
-  height: 100%;
-  width: 69.45%;
+.gridB .flexGal .mapas {
+  padding: 1%;
 }
-
-.cartas {
+.gridB .flexGal .mapas:hover {
+  background-color: rgb(124, 35, 35);
+}
+.gridB .cartas {
   margin: 10%;
   margin-bottom: 24vh;
   padding: 2%;
   display: flex;
   justify-content: space-between;
 }
-
-/* requisitos */
-.txtM {
+.gridB .txtM {
   margin: 9%;
 }
-
-.txtMin {
+.gridB .txtM .txtMin {
   margin-bottom: 20%;
 }
 
@@ -115,8 +101,7 @@
   grid-area: footer;
   background-color: rgb(124, 35, 35);
 }
-
-.flexFooter {
+.gridC .flexFooter {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
