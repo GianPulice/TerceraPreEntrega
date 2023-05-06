@@ -170,15 +170,17 @@
     top: 0;
     z-index: 1;
   }
-  .txth2 {
+  h2 .txth2 {
     color: black;
-    margin-top: 100%;
+    margin-top: 85%;
     margin-left: 2%;
     font-size: 1.8rem;
   }
-  .mapas {
+  .flexGal .mapas  {
     padding: 3%;
-  }
+    width: 80% 
+    
+}
   .leyendas {
     height: 60%;
     width: 40%;
