@@ -187,11 +187,12 @@
   }
   .txth2 {
     color: black;
-    margin-top: 100%;
+    margin-top: 95%;
     margin-left: 2%;
     font-size: 1.8rem;
   }
   .mapas {
+    width: 70%;
     padding: 3%;
   }
   .leyendas {
