@@ -1,0 +1,116 @@
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Reglas de estilo para tabletas con ancho de pantalla mínimo de 768px y máximo de 1023px */
+    .layoutGrid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr 1fr 1f;
+    grid-template-areas:
+    "header header"
+    "main main"
+    "main main"
+    "main main"
+    "footer footer";
+    }
+
+    .sticky{
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+    
+    .txth2 {
+        color: $color-txt;
+        margin-top: 80%;
+        margin-left: 2%;
+        font-size: 1.8rem;
+    }
+    
+    .leyendas {
+        height: 50%;
+        width: 30%;
+    }
+    
+    .videoLoop {
+        height: 80%;
+        width: 69.45%;
+        padding-bottom: 206%;
+    }
+    
+    .cartas {
+        margin: 5%;
+        margin-bottom: 10vh;
+        flex-direction: row;
+    }
+
+    .txtM{
+        margin: 13%;
+    }
+    
+    .txtMin{
+        margin-bottom: 20%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    /* Reglas de estilo para dispositivos móviles con ancho de pantalla máximo de 767px */
+    .layoutGrid {
+    grid-template-columns: auto;
+    grid-template-rows: auto 1fr 1fr 1fr 1.5f;
+    grid-template-areas:
+    "header"
+    "main"
+    "main"
+    "main"
+    "footer";
+    }
+
+    .mapas  {
+        padding: 3%;
+        width: 80% !important;
+        
+    }
+
+    .genNav {
+        font-size: 1.2rem;
+    }
+
+    .sticky{
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+    
+    .txth2 {
+        
+        margin-top: 70%;
+        margin-left: 2%;
+        font-size: 1.8rem;
+    }
+    
+    
+    .leyendas {
+        height: 60%;
+        width: 40%;
+    }
+    
+    .videoLoop {
+        height: 60%;
+        width: 100%;
+        margin-bottom: 80%;
+    }
+    
+    .cartas {
+        margin: 5%;
+        
+        flex-direction: column;
+        
+    }
+
+    .txtM{
+        margin:14.8%;
+    }
+    
+    .txtMin{
+        margin-bottom: 20%;
+    }
+
+}
