@@ -159,7 +159,7 @@
   /* Reglas de estilo para dispositivos móviles con ancho de pantalla máximo de 767px */
   .layoutGrid {
     grid-template-columns: auto;
-    grid-template-rows: auto 1fr 1fr 1fr auto;
+    grid-template-rows: auto 1fr 1fr 1fr 1fr;
     grid-template-areas: "header" "main" "main" "main" "footer";
   }
   .genNav {
@@ -170,7 +170,7 @@
     top: 0;
     z-index: 1;
   }
-  h2 .txth2 {
+  .gridB .txth2 {
     color: black;
     margin-top: 85%;
     margin-left: 2%;
