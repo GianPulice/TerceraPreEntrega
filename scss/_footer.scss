@@ -1,7 +1,7 @@
 /* estilos footer */
 .gridC {
     grid-area: footer;
-    background-color:rgb(124, 35, 35);
+    background-color:$color-general;
     .flexFooter{
         display: flex;
         flex-direction: row;
@@ -18,5 +18,5 @@
 }
 
 .tamLogoApex{
-    height: 9vh;
+    height: 9.5vh;
 }

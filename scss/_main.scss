@@ -1,17 +1,17 @@
 /* estilos main */
 .gridB {
     grid-area: main;
-    background-color: rgb(226, 226, 226);
+    background-color: $color-backg;
     .texBienvenida{
         position: absolute;
         z-index: 1;
-        color:rgb(226, 226, 226);
+        color:$color-backg;
         font-size: 1.8rem;
     }
     .txth2{
         position: absolute;
         z-index: 1;
-        color: rgb(226, 226, 226);
+        color: $color-backg;
         font-size: 1.8rem;
         margin-top: 40%;
         margin-left: 55%;
@@ -41,14 +41,14 @@
             height: 40%;
             width: 25%;
                 &:hover{
-                    background-color: rgb(124, 35, 35);
+                    background-color:$color-general;
             }
         }
 
         .mapas{
-            padding: 1%;
+            
                 &:hover{
-                    background-color:rgb(124, 35, 35);
+                    background-color:$color-general;
             }
         }
     }

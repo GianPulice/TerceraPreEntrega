@@ -1,10 +1,10 @@
 /* estilos header */
 .gridA {
     grid-area: header;
-    background-color:rgb(124, 35, 35);
+    background-color:$color-general;
     .genNav{
         display:inline-block;
-        color: black;
+        color: $color-txt;
         font-size: 1.5rem;
         padding-left: 4%;
         list-style: none;
