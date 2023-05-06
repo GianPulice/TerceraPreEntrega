@@ -50,15 +50,13 @@
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and  (max-width: 767px )  { 
     /* Reglas de estilo para dispositivos móviles con ancho de pantalla máximo de 767px */
     .layoutGrid {
     grid-template-columns: auto;
-    grid-template-rows: auto 1fr 1fr 1fr 1.5f;
+    grid-template-rows: auto 1fr 1.5f;
     grid-template-areas:
     "header"
-    "main"
-    "main"
     "main"
     "footer";
     }
